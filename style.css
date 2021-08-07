@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url(./images/moon-phase.svg), default;
+}
+body {
+    font-family: 'Nerko one', sans-serif;
+}
+
+header {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(90deg, #2b5876, #4e4376);
+}
+.ok > h1 {
+    font-size: 30px;
+    color: #fff;
+}
+.ok {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 39%;
+}
+
+nav {
+    min-height: 20vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav h1, nav ul {
+    font-size: 1.3rem;
+    flex: 1;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h2 {
+    font-size: 2rem;
+    color: white;
+}
+.intro {
+    background: #000;
+}
+.boi {
+    background: #000;
+}
+.about {
+    background: #000;
+}
+.facts {
+    background: #000;
+}
+.end {
+    background: #000;
+}
+.bubble {
+    position: absolute;
+    z-index: -2;
+    background: linear-gradient(to right top, #f46b45, #eea849);
+    transform: scale(2);
+    transition: all 0.8s ease;
+}
+.nice {
+    position: absolute;
+    top: 20%;
+    border: 2px solid #89f6f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #89f6f3;
+}
+.troop {
+    position: absolute;
+    top: 120%;
+    border: 2px solid #89f6f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #89f6f3;
+}
+.ecin {
+    position: absolute;
+    top: 220%;
+    border: 2px solid #89f6f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #89f6f3;
+}
+.fool {
+    position: absolute;
+    top: 320%;
+    border: 2px solid #89f6f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #89f6f3;
+}
+.lite {
+    position: absolute;
+    top: 510%;
+    border: 2px solid #89f6f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #89f6f3;
+}
+.idea {
+    height: 15vh;
+    width: 15vh;
+    border: none;
+    position: fixed;
+    background-image: url(./images/moon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    outline: none;
+}
+.first {
+    position: absolute;
+    top: 135%;
+    left: 10%;
+    height: 500px;
+    width: 40%;
+}
+.first-h{
+    color: #fff;
+    font-size: 25px;
+}
+.first-p {
+    color: #89f6f3;
+    font-size: 17.5px;
+}
+.first-img {
+    height: 500px;
+    width: 540px;
+    position: absolute;
+    left: 50%;
+    top: 135%;
+}
+span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.what {
+    position: absolute;
+    left: 0%;
+}
+.topic {
+    height: 300px;
+    width: 640px;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    animation: radial-pulse 3s infinite;
+    border-radius: 20px;
+}
+.mind-blown {
+    font-size: 50px;
+    color: #fff;
+}
+.list-sty {
+    font-size: 30px;
+    color: #fff;
+    list-style: none;
+}
+@keyframes radial-pulse {
+    0% {
+        box-shadow: 0 0 0 0px #89f3f6;
+    }
+    100% {
+        box-shadow: 0 0 0 30px #89f6f3;
+    }
+}
+.port {
+    position: absolute;
+    top: 235%;
+    left: 10%;
+    height: 500px;
+    width: 40%;
+}
+.port-1 {
+    color: #fff;
+    font-size: 25px;
+}
+.port-2 {
+    color: #89f6f3;
+    font-size: 17.5px;
+}
+span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.remo {
+    position: absolute;
+    left: 0%;
+}
+.neil {
+    height: 500px;
+    width: 540px;
+    position: absolute;
+    left: 50%;
+    top: 235%;
+}
+.new-topic {
+    position: absolute;
+    top: 55%;
+    color: #fff;
+    font-size: 25px;
+}
+.answer-dude {
+    position: absolute;
+    top: 62%;
+    left: 0%;
+    color: #89f6f3;
+}
+.physics {
+    position: absolute;
+    top: 335%;
+    left: 10%;
+    height: 500px;
+    width: 40%;
+}
+.usa-dirty {
+    color: #89f6f3;
+    font-size: 25px;
+}
+.gates {
+    color: #89f6f3;
+    font-size: 25px;
+}
+.jobs {
+    color: #89f6f3;
+    font-size: 25px;
+}
+.run {
+    color: #89f6f3;
+    font-size: 25px;
+}
+.loop {
+    position: absolute;
+    top: 335%;
+    left: 55%;
+    height: 500px;
+    width: 40%;
+}
+.privacy,
+.class,
+.roll,
+.code {
+    color: #89f6f3;
+}
+.private {
+    position: absolute;
+    top: 450%;
+    height: 253px;
+    width: 750px;
+    animation-name: floating;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 5px 10px #89f6f3;
+    border-radius: 10px;
+}
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 50px); }
+    to   { transform: translate(0, -0px); }
+}
