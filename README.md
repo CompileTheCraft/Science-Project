@@ -1,5 +1,5 @@
 # Science-Project
- my science project on moon, hopefully you will use this like a template
+ my science project on moon, hopefully it helps
 
 ## How to use
 1. Download it, put your information and images replacing mine.
